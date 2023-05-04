@@ -16,8 +16,8 @@ body {
   position: relative;
   background: transparent;
 }
-
-body::before {
+/* body::before */
+#background-particle {
   content: "";
   position: fixed;
   background: #040404 url("../img/bg2.jpg") top right no-repeat;
