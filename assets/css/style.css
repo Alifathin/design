@@ -10,6 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
+  cursor: url('../cursors/normal.cur'), auto; /* Custom cursor */
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
   color: #fff;
@@ -50,6 +51,7 @@ a {
 }
 
 a:hover {
+  cursor: url('../cursors/link.cur'), auto; /* Custom cursor */
   color: #2cd4e0;
   text-decoration: none;
 }
@@ -777,6 +779,116 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.bg-maintheme {
+  background: #10ccd3;
+  color: #011819;
+}
+.bg-secondarytheme {
+  background: #011819;
+  color: #10ccd3;
+  border: 2px solid #10ccd3;
+}
+.btn-maintheme {
+  background: #10ccd3;
+  color: #011819;
+}
+.btn-secondarytheme {
+  background: #011819;
+  color: #10ccd3;
+  border: 2px solid #10ccd3;
+}
+
+.pak {
+  background: #fff;
+  padding-bottom: 15px;
+}
+.package-pak {
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.package-pak:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.pak-header {
+  font-size: 1.5rem;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.pakprice {
+  background: #fff;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 30px;
+  color: #333;
+  padding: 8px 0px;
+}
+
+.pak-text {
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  margin-bottom: 0;
+  background: #ffffff;
+  color: #747474;
+}
+
+.list-group-item {
+  border: none;
+  padding: 10px 0;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  background-image: url('../img/white-blossom-op.jpg');
+  background-size: 580px;
+  background-position: left;
+  transition: transform 0.3s ease; /* Add smooth transition */
+
+}
+
+.card:hover {
+  cursor: url('../cursors/link.cur'), auto; /* Custom cursor */
+  box-shadow: 0px 4px 12px #10ccd3;
+  transform: scale(1.10); /* Zoom 2% */
+}
+
+.card img {
+  height: 100px;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #000022;
+}
+
+.card-text {
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.price {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -807,6 +919,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
+  cursor: url('../cursors/link.cur'), auto; /* Custom cursor */
   background: #10ccd3;
 }
 
