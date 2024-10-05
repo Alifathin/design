@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  cursor: url('../cursors/normal.cur'), auto; /* Custom cursor */
+  cursor: url('../../cursors/normal.cur'), auto; /* Custom cursor */
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
   color: #fff;
