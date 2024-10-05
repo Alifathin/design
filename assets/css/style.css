@@ -51,7 +51,7 @@ a {
 }
 
 a:hover {
-  cursor: url('../cursors/link.cur'), auto; /* Custom cursor */
+  cursor: url('../../cursors/link.cur'), auto; /* Custom cursor */
   color: #2cd4e0;
   text-decoration: none;
 }
@@ -919,7 +919,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  cursor: url('../cursors/link.cur'), auto; /* Custom cursor */
+  cursor: url('../../cursors/link.cur'), auto; /* Custom cursor */
   background: #10ccd3;
 }
 
