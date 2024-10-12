@@ -1215,6 +1215,30 @@ section .container {
   animation: animate-loading 1s linear infinite;
 }
 
+.contact .php-email-form select {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 0;
+  transition: 0.3s;
+  color: #757575;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #656565;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#fileName {
+  margin-left: 10px;
+  color: #fff;
+}
+
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
